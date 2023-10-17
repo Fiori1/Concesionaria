@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../img/fundo.jpg);
+}
+
+header {
+    min-height: 1080px;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.borda{
+    display: flex;
+    border-bottom: 1px solid #777;
+}
+#logo img{
+
+background-position: center left;
+width: 200px;
+height: 200px;
+color: crimson;
+text-align: center;
+font-size: 2em;
+font-weight: 900;
+text-shadow: 1px 1px 1px #ffffff;
+line-height: 60px;
+}
+.menu{
+    flex: 1;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.menu ul li{
+min-width: 100px;
+line-height: 30px;
+}
+.menu ul li a{
+    color: azure;
+    font-weight: 500px;
+    text-decoration: none;
+    padding: 20px;
+}
+.menu li a:hover{
+    color: red;
+}
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#sobre h1{
+    text-align: center;
+    text-shadow: 3px 3px 3px #777;
+    font-size: 3em;
+    border-bottom: 2px solid #ccc;
+}
