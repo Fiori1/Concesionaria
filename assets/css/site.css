@@ -4,63 +4,123 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(../img/fundo.jpg);
+    font-family: 'Gabarito', sans-serif;
+    ;
+}
+
+html {
+    background-color: #212121;
 }
 
 header {
-    min-height: 1080px;
-    background-image: url(../img/fundo.jpg);
+    min-height: 300px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
 }
-.borda{
+
+.borda {
     display: flex;
     border-bottom: 1px solid #777;
 }
-#logo img{
 
-background-position: center left;
-width: 200px;
-height: 200px;
-color: crimson;
-text-align: center;
-font-size: 2em;
-font-weight: 900;
-text-shadow: 1px 1px 1px #ffffff;
-line-height: 60px;
+#logo img {
+
+    background-position: center left;
+    width: 200px;
+    height: 200px;
+    color: crimson;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #ffffff;
+    line-height: 60px;
 }
-.menu{
+
+.menu {
     flex: 1;
 }
-.menu ul{
+
+.menu ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    width: 100%;
 }
-.menu ul li{
-min-width: 100px;
-line-height: 30px;
+
+.menu ul li {
+    min-width: 100px;
+    line-height: 30px;
+    display: inline;
+    list-style: none;
 }
-.menu ul li a{
+
+.menu ul li a {
     color: azure;
     font-weight: 500px;
     text-decoration: none;
-    padding: 20px;
+    padding: 20px 40px;
+    display: inline-block;
+    text-align: right;
+    padding-top: 95px;
+
 }
-.menu li a:hover{
-    color: red;
+
+.menu li a:hover {
+    background-color: #BB0018;
+    height: 100%;
 }
+
 .container {
     max-width: 960px;
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
-#sobre h1{
+
+#sobre h1 {
+    color: #BB0018;
     text-align: center;
-    text-shadow: 3px 3px 3px #777;
+    text-shadow: 3px 3px 3px #72726f;
     font-size: 3em;
     border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+}
+
+#sobre p {
+    text-align: center;
+    display: flex;
+    color: rgb(211, 216, 216);
+    min-height: 80px;
+    padding-top: 30px;
+}
+
+section.duvidas-container {
+    text-align: center;
+    padding-top: 60px;
+}
+
+h2 {
+    color: #BB0018;
+}
+
+input {
+    box-shadow: 3px 3px 3px #BB0018;
+    margin: 10px 10px 10px;
+    background-color: #212121;
+}
+
+textarea {
+    padding: 20px 10px;
+    width: 200px;
+    background-color: #212121;
+    box-shadow: 3PX 3PX 3PX #BB0018;
+}
+
+.duvidas-container p {
+    color: rgb(211, 216, 216);
+}
+.enviar input{
+    color: #ccc;
 }
